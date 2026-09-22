@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [RestAssured Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="API Tests(failed)" verbose="0">
+    <classes>
+      <class name="PutAndPatch">
+        <methods>
+          <include name="deleteReq"/>
+          <include name="patchReq"/>
+        </methods>
+      </class> <!-- PutAndPatch -->
+      <class name="ValidationCheck">
+        <methods>
+          <include name="getReq"/>
+        </methods>
+      </class> <!-- ValidationCheck -->
+    </classes>
+  </test> <!-- API Tests(failed) -->
+</suite> <!-- Failed suite [RestAssured Test Suite] -->
