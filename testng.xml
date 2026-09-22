@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RestAssured Test Suite">
+    <test name="API Tests">
+        <classes>
+            <class name="GetandPost"/>
+            <class name="PutAndPatch">
+                <methods>
+                    <include name="putReq"/>
+                </methods>
+            </class>
+            <class name="TestExample"/>
+        </classes>
+    </test>
+</suite>
